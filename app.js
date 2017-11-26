@@ -4,7 +4,7 @@ var app = express()
 // Build Your Route Here
 app.get("/", function(req, resp) {
   const welcomePhrase = "Hello, World from Express and EJS!"
-  resp.render("views/index", {
+  resp.render("index", {
     welcomePhrase: welcomePhrase
   })
   })
